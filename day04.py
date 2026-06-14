@@ -4,7 +4,7 @@ threshold = 100
 
 if log_count == 0:
     print ("Crit Crit this node is silent")
-elif log_count < 100:
+elif log_count < threshold:
     print ("Warning, log count is being sketchy")
 else:
     print ("Normal Operation")
